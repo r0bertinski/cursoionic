@@ -1,0 +1,19 @@
+<app-header title = "Moda info page"></app-header>
+
+
+<ion-content class="padding">
+  <ion-list>
+    <ion-list-header>Datos enviados</ion-list-header>
+      <ion-item>{{ nombre }}</ion-item>
+      <ion-item>{{ pais }}</ion-item>
+
+  </ion-list>
+    
+    <ion-button  expand="full" color="primary"    (click)="salirSinArgumentos()">
+      Salir sin argumentos
+    </ion-button>
+    <ion-button  expand="full" color="secondary"  (click)="salirConArgumentos()">
+      Salir con argumentos
+    </ion-button>
+
+</ion-content>
